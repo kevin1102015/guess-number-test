@@ -6,7 +6,10 @@ import static org.mockito.Mockito.when;
 
 
 public class HelloWorldTest {
+<<<<<<< HEAD
 
+=======
+>>>>>>> a11665ee8ea15fb1919b81c901058787eef2b777
     @Test
     public void hello_world_test(){
        assertThat("Hello World").isEqualTo("Hello World");
