@@ -8,11 +8,10 @@ public class CompareNumber {
             if(answer.contains(String.valueOf(input.charAt(x)))){
                 b_count++;
             }
-
             if(input.charAt(x) == answer.charAt(x)){
                 a_count++;
             }
         }
-        return a_count + "A" + b_count + "B";
+        return a_count + "A" + (b_count-a_count) + "B";
     }
 }
